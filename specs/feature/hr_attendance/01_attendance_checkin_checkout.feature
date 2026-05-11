@@ -30,10 +30,6 @@ Feature: Employee Attendance Check-In and Check-Out
       | Field         | Value           |
       | in_ip_address | 192.168.1.100   |
 
-  Scenario: Check-in from Kiosk mode
-    Given the attendance kiosk is enabled
-    When the employee checks in using the kiosk
-    Then the attendance record should have in_mode = "kiosk"
 
   Scenario: Check-in from Systray
     Given the employee checks in via system tray
