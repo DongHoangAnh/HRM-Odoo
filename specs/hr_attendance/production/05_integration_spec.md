@@ -27,6 +27,12 @@
 - Approved overtime may affect payroll calculations or compensation.
 - Overtime rulesets should remain compatible with downstream salary logic.
 
+### Project Context (Context Discovery alignment)
+
+- Operations systems may provide `teaching_hours`; ensure a clear import/contract for these values and reconciliation logic with attendance-derived teaching hours.
+- Payroll export must support Finance-required fields (insurance IDs, PIT flags, deductions, per-employee bank allocations) and be agreed in CSV/Excel layout.
+- Integration endpoints should be idempotent and operate within multi-company boundaries.
+
 ### res.company and res.config.settings
 - Company-wide overtime validation mode must be configurable.
 - Settings changes should be reflected in new overtime line defaults.

@@ -1,5 +1,11 @@
 # HR Attendance UI Spec
 
+## Project Context (Context Discovery alignment)
+
+- Default UI language: Vietnamese for HR users; labels for teaching-hours and pay-type must be clear.
+- Provide a controlled input or import path for `teaching_hours` coming from Operations scheduling systems.
+- Payroll-facing fields (validated overtime, teaching_hours) must be visible to HR/Finance roles in payroll preparation views.
+
 ## UI Goals
 - Make check-in/out quick and unambiguous.
 - Make overtime state and approval visible.

@@ -1,5 +1,11 @@
 # HR Attendance Data Spec
 
+## Project Context (Context Discovery alignment)
+
+- Attendance must support teaching hours as an explicit data point that can be provided by Operations or computed from attendance events.
+- Attendance records must remain usable as payroll input; ensure computed fields match payroll expectations (worked_hours, teaching_hours, validated_overtime_hours).
+- Keep attendance customizations in `hrm_attendance` module and avoid changing Odoo core models.
+
 ## Aggregate Model Map
 
 ### Core entities

@@ -3,6 +3,12 @@
 ## Goal
 Build production recruitment functionality that manages jobs, applicants, stages, sources, talent pools, interviewers, and employee handoff in a way that matches Odoo-style hiring workflows.
 
+## Project Context (Context Discovery alignment)
+
+- Scope limited to Employee, Attendance, Leave, Payroll, Recruitment.
+- Applicant-to-employee handoff must preserve recruitment context and create `hr.employee` records (teachers/TAs remain `hr.employee`).
+- Do not modify Odoo core; implement recruitment customizations in `hrm_recruitment` modules and ensure company-scoped behavior.
+
 ## Primary Users
 - Recruiter
 - Hiring Manager

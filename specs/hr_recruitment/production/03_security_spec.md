@@ -6,6 +6,11 @@
 - Keep interview permissions synchronized with actual assignment.
 - Avoid exposing applicant PII to unauthorized users.
 
+## Project Context (Context Discovery alignment)
+
+- Recruitment security must ensure applicant PII is protected and that conversion to `hr.employee` preserves company and privacy constraints.
+- Interviewer permissions and applicant attachments should be scoped to company and recruiting roles only.
+
 ## Roles
 - System Administrator
 - HR User

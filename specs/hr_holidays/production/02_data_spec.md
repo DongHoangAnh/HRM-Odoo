@@ -9,6 +9,12 @@
 - hr.leave.accrual.plan
 - hr.leave.accrual.level
 
+## Project Context (Context Discovery alignment)
+
+- Scope limited to Employee, Attendance, Leave, Payroll, Recruitment.
+- Leave balances and accruals must feed payroll and respect teaching-hour policies when configured.
+- Keep custom fields and modules namespaced with `hrm_*` and avoid core changes.
+
 ### Related entities
 - hr.employee
 - hr.employee.public

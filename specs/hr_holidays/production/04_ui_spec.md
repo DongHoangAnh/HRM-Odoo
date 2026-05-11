@@ -5,6 +5,11 @@
 - Surface balances, allocations, and current leave state clearly.
 - Keep configuration for leave types and accrual plans manageable.
 
+## Project Context (Context Discovery alignment)
+
+- Default UI language for HR users is Vietnamese; clearly label accrual and payroll-facing fields so Finance can use them.
+- Ensure leave UI surfaces payroll-relevant values (allocation remaining, accruals) to HR/Finance roles while hiding private notes from public/non-HR.
+
 ## Required Screens
 - Leave request form, list, and calendar views.
 - Leave allocation form and list views.

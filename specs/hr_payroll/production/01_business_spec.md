@@ -3,6 +3,13 @@
 ## Goal
 Build production payroll functionality that calculates, processes, and manages employee salaries based on work entries, leave, and salary structures.
 
+## Project Context (Context Discovery alignment)
+
+- Scope limited to Employee, Attendance, Leave, Payroll, Recruitment.
+- Support separate salary structures for office staff and teachers; teachers and TAs are managed in `hr.employee` and may be paid by teaching hours when configured.
+- Must comply with Vietnamese payroll rules (BHXH, BHYT, BHTN, PIT, dependent relief) and provide export formats required by Finance.
+- Technical constraints: Odoo 19; do not modify core; implement custom logic in namespaced modules like `hrm_payroll`.
+
 ## Primary Users
 - Payroll Manager
 - HR Manager

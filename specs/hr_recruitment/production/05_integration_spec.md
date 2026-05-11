@@ -4,6 +4,11 @@
 - Connect recruitment with employee creation, calendar, mail alias, attachments, and analytics.
 - Ensure job and applicant activity remains synchronized with other Odoo apps.
 
+## Project Context (Context Discovery alignment)
+
+- Recruitment integrations must ensure applicant-to-employee handoff populates `hr.employee` with correct job, department, and contract template info for downstream payroll and onboarding.
+- Keep recruitment integrations idempotent and respect multi-company boundaries; implement custom logic in `hrm_recruitment` without modifying Odoo core.
+
 ## Integrations
 
 ### hr.employee

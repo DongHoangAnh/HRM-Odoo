@@ -6,6 +6,10 @@
 - Keep work-entry type configuration safe.
 - Preserve company-level generation boundaries.
 
+## Project Context (Context Discovery alignment)
+
+- Work-entry security must protect validated entries consumed by payroll and allow trusted integrations (Operations, Attendance) to write teaching-hours or attendance-derived inputs while restricting general edits.
+
 ## Roles
 - System Administrator
 - HR Manager

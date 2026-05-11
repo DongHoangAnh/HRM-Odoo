@@ -3,6 +3,15 @@
 ## Goal
 Build the HR core for an education company on Odoo 19, focused on employee master data, contracts, attendance, leave, payroll, and recruitment.
 
+## Project Context (Context Discovery alignment)
+
+- Scope is limited to five HR modules: Employee, Attendance, Leave, Payroll, and Recruitment.
+- Target domain: an education company where teachers and teaching assistants (TAs) are managed as `hr.employee` (no separate models for teachers).
+- Teacher payroll may require a separate salary structure (e.g., hourly / per-class pay) in addition to office staff structures.
+- Technical constraints: Odoo 19, do not modify core; custom modules prefixed consistently (e.g., `hrm_...`).
+- Legal / payroll constraints (Vietnam): social insurance, health insurance, unemployment insurance, PIT (7 tax brackets), and statutory family/personal deductions must be supported, not hard-coded.
+- Priority order: employee master data → attendance / teaching hours → leave → payroll → recruitment.
+
 ## Primary Users
 - HR User
 - HR Manager

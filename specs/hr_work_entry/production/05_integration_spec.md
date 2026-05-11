@@ -5,6 +5,11 @@
 - Ensure contract or schedule changes propagate safely.
 - Keep downstream payroll consumers working with stable data contracts.
 
+## Project Context (Context Discovery alignment)
+
+- Work-entry integrations must guarantee deterministic inputs for payroll; teaching-hours and attendance-derived entries must reconcile with Operations sources when present.
+- Integration endpoints should be idempotent, multi-company aware, and implemented in `hrm_*` modules without touching Odoo core.
+
 ## Integrations
 
 ### hr.employee and hr.version

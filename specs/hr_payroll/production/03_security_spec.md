@@ -8,6 +8,11 @@
 - **Salary rule read**: All
 - **Payslip run read**: All
 
+## Project Context (Context Discovery alignment)
+
+- Payroll security must reflect Vietnamese legal constraints on payroll data and limit export of sensitive personal data to Finance only when necessary.
+- Net salary, tax breakdowns, and bank account fields should be visible to HR Manager and Accountant only; teaching-hour pay details visible to HR/Payroll roles.
+
 ### Group: HR Manager
 - **Payslip read/write/create**: All employees
 - **Payroll structure read/write/create**: All

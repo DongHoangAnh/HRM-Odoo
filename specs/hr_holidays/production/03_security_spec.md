@@ -6,6 +6,11 @@
 - Allow employees to see only what they are allowed to see.
 - Preserve company and manager boundaries.
 
+## Project Context (Context Discovery alignment)
+
+- Leave security must align with the overall project scope and Vietnamese legal data retention and privacy requirements.
+- Teaching-hour related leave impacts should be visible to HR/Payroll but protected from general users.
+
 ## Roles
 - System Administrator
 - HR Manager

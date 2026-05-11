@@ -24,6 +24,12 @@
 - Support overtime derivation from attendance records.
 - Expose employee timezone and working hour context.
 
+### Project Context (Context Discovery alignment)
+
+- Operations may supply teaching hours; HR attendance integration must accept and reconcile teaching hours coming from external scheduling systems.
+- Payroll export format must be agreed with Finance (CSV/Excel layout) and support required Vietnamese payroll fields (insurance IDs, PIT flags, deductions).
+- Keep integrations idempotent and namespaced under `hrm_*` custom modules; do not modify Odoo core integration points.
+
 ### hr_holidays
 - Provide leave manager relations, absent status, and dashboard data.
 - Support employee status updates when the employee is on leave.

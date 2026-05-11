@@ -5,6 +5,11 @@
 - Make job metrics and recruiter actions visible.
 - Keep interviews, attachments, and hiring decisions easy to manage.
 
+## Project Context (Context Discovery alignment)
+
+- Default UI language: Vietnamese for HR users; ensure handoff actions to `hr.employee` surface required fields for onboarding (department, job, contract template).
+- Keep applicant PII hidden from public/non-recruiting users; make conversion to employee explicit and auditable.
+
 ## Required Screens
 - Applicant kanban, list, and form views.
 - Job list, kanban, and form views.

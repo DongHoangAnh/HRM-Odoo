@@ -7,6 +7,11 @@
 - hr.work.entry.type
 - hr.version work-entry extensions
 
+## Project Context (Context Discovery alignment)
+
+- Work-entry generation must accept inputs from attendance and leave and produce deterministic intervals for payroll; teaching-hours should be representable where relevant.
+- Keep generation logic namespaced under `hrm_*` and do not change Odoo core models.
+
 ### Related entities
 - hr.employee
 - hr.version

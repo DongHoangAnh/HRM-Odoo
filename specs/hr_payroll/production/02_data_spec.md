@@ -1,5 +1,11 @@
 # HR Payroll Data Spec
 
+## Project Context (Context Discovery alignment)
+
+- Payroll must support both office staff and teaching payroll structures; teaching hours from `hr.attendance` or Operations must be consumable.
+- Include Vietnamese statutory fields (insurance IDs, PIT flags, dependent counts) in data contracts; avoid hardcoding legal logic.
+- Keep custom payroll fields and modules namespaced under `hrm_*` and avoid core changes.
+
 ## Aggregate Model Map
 
 ### Core entities

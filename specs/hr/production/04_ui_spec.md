@@ -1,5 +1,11 @@
 # HR UI Spec
 
+## Project Context (Context Discovery alignment)
+
+- Interface language: Vietnamese by default for HR users; provide clear labels for teacher-specific fields (teaching hours, pay type).
+- Ensure views expose teaching-hours input and payroll-relevant fields where HR or Finance roles need them, but keep those fields hidden from public/non-HR roles.
+- Follow Odoo UI conventions and avoid core modifications; custom widgets should be included in `hrm_*` modules.
+
 ## UI Goals
 - Make employee management fast for HR users.
 - Keep public employee browsing simple and safe.

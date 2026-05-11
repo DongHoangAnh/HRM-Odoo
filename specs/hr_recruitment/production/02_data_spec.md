@@ -12,6 +12,11 @@
 - hr.talent.pool
 - hr.job.platform
 
+## Project Context (Context Discovery alignment)
+
+- Recruitment must support clean handoff to `hr.employee` and preserve job/department/contract context for downstream payroll and onboarding.
+- Ensure recruitment modules follow `hrm_*` naming and respect Vietnamese data handling rules for applicant PII.
+
 ### Related entities
 - hr.employee
 - hr.department

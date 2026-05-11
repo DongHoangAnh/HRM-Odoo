@@ -11,6 +11,11 @@
   - Action: Generate payslips, Approve all, Export to Finance
   - State indicator
 
+## Project Context (Context Discovery alignment)
+
+- Default UI language: Vietnamese for HR users; ensure payroll export and approval wizards present Finance-required fields (insurance IDs, PIT, bank allocations).
+- Expose teaching-hours inputs and structure selection where HR or Payroll roles require them; hide from non-authorized users.
+
 ### Payslip (hr.payslip)
 - **List View**: Employee, period, gross, net, state, approval status
   - Filters by: period, department, approval state

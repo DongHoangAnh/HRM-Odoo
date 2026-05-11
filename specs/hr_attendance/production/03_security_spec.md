@@ -1,5 +1,10 @@
 # HR Attendance Security Spec
 
+## Project Context (Context Discovery alignment)
+
+- Teaching hours may be provided by Operations; ensure security rules allow trusted integration users to write teaching-hours fields while preventing general user edits.
+- Payroll-related attendance fields (validated_overtime_hours, teaching_hours) should be visible to HR and Finance roles but editable only by authorized attendance/HR managers.
+
 ## Security Goals
 - Restrict overtime configuration to attendance managers and HR roles.
 - Protect employee attendance data from unauthorized edits.

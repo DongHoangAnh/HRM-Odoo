@@ -4,6 +4,11 @@
 - Connect leave workflows with employee status, attendance, calendar, and downstream payroll/work-entry flows.
 - Ensure accrual and allocation policy stays consistent with operational data.
 
+## Project Context (Context Discovery alignment)
+
+- Ensure leave data is consumable by payroll and work-entry modules; teaching-hour policies must be considered when mapping leave to payroll rules.
+- Integrations must be idempotent and respect multi-company boundaries; implement in `hrm_*` modules without changing Odoo core.
+
 ## Integrations
 
 ### hr.employee and hr.employee.public

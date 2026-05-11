@@ -5,6 +5,11 @@
 - Make validation and regeneration actions accessible but controlled.
 - Keep work-entry type configuration straightforward.
 
+## Project Context (Context Discovery alignment)
+
+- Default UI language: Vietnamese for HR users; make generation and regeneration actions explicit and show affected periods clearly for payroll reconciliation.
+- Expose teaching-hour related generation options when applicable and ensure Finance-visible fields are present in payroll preparation views.
+
 ## Required Screens
 - Work entry list, form, and conflict views.
 - Work entry type list and form views.

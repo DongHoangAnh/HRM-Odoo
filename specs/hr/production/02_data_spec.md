@@ -1,5 +1,12 @@
 # HR Data Spec
 
+## Project Context (Context Discovery alignment)
+
+- Scope limited to five HR modules: Employee, Attendance, Leave, Payroll, Recruitment.
+- Teachers and TAs are stored in `hr.employee` and must include teaching-specific fields (for example, `teaching_hours`, `pay_rate_type`).
+- Preserve contract/version history and prevent overlapping active versions for a single employee.
+- Custom modules should follow naming convention `hrm_*` and avoid modifying Odoo core.
+
 ## Aggregate Model Map
 
 ### Core entities

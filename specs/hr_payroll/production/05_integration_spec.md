@@ -12,6 +12,11 @@
 - **Output**: Payslip lines with calculated amounts
 - **Frequency**: On-demand (payslip generation) or batch (payroll run)
 
+### Project Context (Context Discovery alignment)
+
+- Payroll exports must be agreed with Finance (CSV/Excel) and include Vietnamese payroll-required fields (insurance IDs, PIT flags, dependent relief, bank allocations).
+- Teaching-hours provided by Operations or attendance must be mappable to salary rules; integration endpoints should be idempotent and respect multi-company scopes.
+
 ### 2. Payroll → Finance
 **Data flow**: Approved payslips → Bank transfer file / Finance voucher
 - **Input**: Approved payslips (from payslip.run)

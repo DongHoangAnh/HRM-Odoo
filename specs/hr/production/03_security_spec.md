@@ -1,5 +1,12 @@
 # HR Security Spec
 
+## Project Context (Context Discovery alignment)
+
+- Project scope: Employee, Attendance, Leave, Payroll, Recruitment only.
+- Teachers and TAs remain `hr.employee`; security must account for teacher-specific fields (teaching hours, pay type) while keeping them protected.
+- Ensure payroll-related fields (salary, PIT status, insurance numbers) are accessible only to HR Manager/Finance roles as appropriate.
+- Compliance: follow Vietnamese legal requirements for data retention and protected personal data; audit-sensitive operations.
+
 ## Security Goals
 - Protect private employee data.
 - Support public employee browsing without leaking HR-only fields.

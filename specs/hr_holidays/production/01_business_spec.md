@@ -3,6 +3,13 @@
 ## Goal
 Build production time-off functionality that manages leave requests, allocations, accrual plans, employee leave status, and leave type policy in a way that matches Odoo-style HR workflows.
 
+## Project Context (Context Discovery alignment)
+
+- Scope is limited to five HR modules: Employee, Attendance, Leave, Payroll, and Recruitment.
+- Teachers and TAs are stored in `hr.employee`; leave flows must support teaching-hour implications when payroll is configured to use teaching hours.
+- Follow Odoo 19 constraints: do not modify core; implement customizations in `hrm_*` modules.
+- Compliance: Vietnamese legal requirements for leave, data retention, and payroll interactions must be considered.
+
 ## Primary Users
 - Employee
 - HR User

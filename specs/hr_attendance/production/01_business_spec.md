@@ -3,6 +3,13 @@
 ## Goal
 Build production attendance functionality that records employee work presence, detects overtime, and supports rule-based overtime approval and regeneration.
 
+## Project Context (Context Discovery alignment)
+
+- Scope is part of the HR project limited to Attendance within the five core modules: Employee, Attendance, Leave, Payroll, and Recruitment.
+- Education company context: attendance must support teaching hours for teachers and TAs (these users are `hr.employee`). Teaching hours are an input for payroll when configured.
+- Attendance data may originate from Operations (class schedules); ensure the system can accept teaching hours from external operational sources.
+- Technical constraint: target Odoo 19; do not change Odoo core. Implement customizations in dedicated modules with clear naming (e.g., `hrm_attendance`).
+
 ## Primary Users
 - Employee
 - HR User

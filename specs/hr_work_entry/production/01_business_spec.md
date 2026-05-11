@@ -3,6 +3,12 @@
 ## Goal
 Build production work-entry functionality that generates, validates, and maintains work entries for payroll from contracts, attendance, and leave data.
 
+## Project Context (Context Discovery alignment)
+
+- Scope limited to Employee, Attendance, Leave, Payroll, Recruitment.
+- Work entries are a primary input to payroll; ensure generation supports teaching-hours and contract-version contexts and does not overwrite validated payroll data.
+- Implement work-entry customizations in `hrm_work_entry` modules and avoid Odoo core changes.
+
 ## Primary Users
 - HR Manager
 - Payroll Manager
